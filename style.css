@@ -1,0 +1,119 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  margin: 40px 20px;
+  color: #008CBA;
+}
+
+.Otitle {
+  color: black;
+}
+
+.Xtitle {
+  color: red;
+}
+
+.buttonBox {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 普通按鈕 */
+.regular-button {
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 8px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+}
+/* 失效按鈕 */
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 彈跳式視窗按鈕 */
+.pop-up-button {
+  border: none;
+  background-color: #D0D0D0;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 8px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.container {
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border: 3px solid black;
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+  position: relative;
+  bottom: 40px;
+}
+
+td {
+  border: 3px solid black;
+  font-size: 80px;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+
+
+/* .pop-up-window */
+
+.pop-up-window {
+  width: 100vw;
+  background-color: RGBA(232, 246, 254, 0.8);
+  padding: 50px 0;
+  z-index: 999;
+  position: absolute;
+  top: 30vh;
+  text-align: center;
+}
+
+.pop-up-window>p {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  margin: 0.5em;
+}
+
+.pop-up-window>p:first-child {
+  font-size: 3em;
+  font-weight: 700;
+  color: #758d9a;
+}
+.pop-up-window>button {
+  margin: 2px 30px;
+}
